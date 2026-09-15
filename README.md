@@ -14,15 +14,15 @@ Applications may need reopening to pick up their generated theme.
 omarchy theme install https://github.com/DanielCoffey1/omarchy-evangelion-theme
 ```
 
-Select Evangelion from the Omarchy theme menu afterward.
+The installer applies Evangelion automatically.
 
 Wallpaper source: `wallpaper.svg`; rendered desktop asset: `backgrounds/01-unit-01.png`.
 
 ## Compatibility
 
-Omarchy generates application themes from `colors.toml`. When installing from
-GitHub, current Omarchy regenerates `hyprland.lua`, so the included custom gaps,
-rounding, and shadows require manual configuration if desired. The border colors
-are also defined in `colors.toml`.
+Omarchy generates application themes and Hyprland border colors from
+`colors.toml`. This repository contains no Lua or terminal configuration files,
+which Omarchy does not accept from installed themes. Window gaps, rounding, and
+shadows follow your existing desktop configuration.
 
 The separately configured EVA·01 Starship prompt is not included.
